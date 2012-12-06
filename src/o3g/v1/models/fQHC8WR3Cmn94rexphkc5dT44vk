@@ -1,0 +1,56 @@
+
+{
+"result": {
+"nbVertexes": 0,
+"hit": 1947,
+"description": "",
+"tags": [
+"car"
+],
+"url": "urls/fQHC8WR3Cmn94rexphkc5dT44vk/file.osgjs.gz",
+"userid": "ManriqueAjdani",
+"private": false,
+"name": "i8 hans",
+"hasPassword": false,
+"options": {
+"wireframe": {
+"color": "88888833",
+"enable": false
+},
+"shading": {
+"type": "default-shading"
+},
+"camera": {
+"position": [
+-12.43086010462172,
+-5.902421528302426,
+3.605974544228213
+],
+"target": [
+-0.49278956955915554,
+-0.7036807014357809,
+4.195578984789451
+]
+},
+"orientation": {
+"axis": [
+0,
+0,
+0,
+0
+]
+}
+},
+"nbTriangles": 0,
+"urlId": "fQHC8WR3Cmn94rexphkc5dT44vk",
+"urlWireframe": "https://sketchfab.com/urls/fQHC8WR3Cmn94rexphkc5dT44vk/wireframe.osgjs.gz",
+"sizeUncompress": 9239100,
+"urlShow": "https://sketchfab.com/show/fQHC8WR3Cmn94rexphkc5dT44vk",
+"thumbnail": "https://sketchfab.com/urls/fQHC8WR3Cmn94rexphkc5dT44vk/thumbnail.png?v=4cb812974dfd4d5efc37b3168fd0baf6",
+"thumbnails": {
+"default": "https://sketchfab.com/urls/fQHC8WR3Cmn94rexphkc5dT44vk/thumbnail.png?v=4cb812974dfd4d5efc37b3168fd0baf6"
+}
+},
+"success": true
+}
+

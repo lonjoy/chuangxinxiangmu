@@ -1,0 +1,62 @@
+
+{
+"result": {
+"nbVertexes": 0,
+"hit": 264,
+"description": "lowpoly car, 1 diffuse map, around 30k tri with wheels",
+"tags": [
+"5th",
+"element",
+"mercedes",
+"futuristic",
+"car",
+"sci",
+"fi"
+],
+"url": "urls/oFfjKlslHqXgtKdKqEtpffmSv6h/file.osgjs.gz",
+"userid": "KarolMiklas",
+"private": false,
+"name": "Merc ",
+"hasPassword": false,
+"options": {
+"wireframe": {
+"color": "88888833",
+"enable": false
+},
+"shading": {
+"type": "default-shading"
+},
+"camera": {
+"position": [
+null,
+null,
+null
+],
+"target": [
+null,
+null,
+null
+]
+},
+"orientation": {
+"axis": [
+0,
+0,
+1,
+0
+]
+}
+},
+"nbTriangles": 0,
+"urlId": "oFfjKlslHqXgtKdKqEtpffmSv6h",
+"urlWireframe": "https://sketchfab.com/urls/oFfjKlslHqXgtKdKqEtpffmSv6h/wireframe.osgjs.gz",
+"sizeUncompress": 1747728,
+"urlShow": "https://sketchfab.com/show/oFfjKlslHqXgtKdKqEtpffmSv6h",
+"thumbnail": "https://sketchfab.com/urls/oFfjKlslHqXgtKdKqEtpffmSv6h/thumbnail.png?v=29828e37b50545b3e66b21835b7cafca",
+"thumbnails": {
+"default": "https://sketchfab.com/urls/oFfjKlslHqXgtKdKqEtpffmSv6h/thumbnail.png?v=29828e37b50545b3e66b21835b7cafca"
+}
+},
+"success": true
+}
+

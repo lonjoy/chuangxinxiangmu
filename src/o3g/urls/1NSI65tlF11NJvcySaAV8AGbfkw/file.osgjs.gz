@@ -1,0 +1,4246 @@
+
+{
+"Generator": "OpenSceneGraph 3.1.3",
+"Version": 6,
+"osg.Node": {
+"Children": [
+{
+"osg.Node": {
+"UniqueID": 0,
+"Name": "Root",
+"StateSet": {
+"osg.StateSet": {
+"UniqueID": 1,
+"AttributeList": [
+{
+"osg.Material": {
+"UniqueID": 2,
+"Ambient": [
+0,
+0,
+0,
+1
+],
+"Diffuse": [
+0.64,
+0.64,
+0.64,
+1
+],
+"Emission": [
+0,
+0,
+0,
+1
+],
+"Shininess": 10,
+"Specular": [
+0.5,
+0.5,
+0.5,
+1
+]
+}
+}
+]
+}
+},
+"Children": [
+{
+"osg.MatrixTransform": {
+"UniqueID": 3,
+"Name": "Lamp.004",
+"Matrix": [
+0.29086,
+0.05519,
+-0.95517,
+0,
+0.7711,
+-0.60452,
+0.19988,
+0,
+-0.56639,
+-0.79467,
+-0.21839,
+0,
+1.85585,
+6.02601,
+-0.01596,
+1
+],
+"Children": [
+{
+"osg.LightSource": {
+"UniqueID": 4,
+"Name": "Lamp.004",
+"StateSet": {
+"osg.StateSet": {
+"UniqueID": 5
+}
+},
+"Light": {
+"osg.Light": {
+"UniqueID": 6,
+"Ambient": [
+1,
+1,
+1,
+1
+],
+"ConstantAttenuation": 0,
+"Diffuse": [
+0.5,
+0.5,
+0.5,
+1
+],
+"Direction": [
+0,
+0,
+-1
+],
+"LightNum": 0,
+"LinearAttenuation": 0,
+"Position": [
+0,
+0,
+0,
+1
+],
+"QuadraticAttenuation": 0.03333,
+"Specular": [
+0,
+0,
+0,
+1
+],
+"SpotCutoff": 180,
+"SpotExponent": 0,
+"UserDataContainer": {
+"UniqueID": 7,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "Energy",
+"Value": "0.5"
+},
+{
+"Name": "Color",
+"Value": "[ 1.000000, 1.000000, 1.000000 ]"
+},
+{
+"Name": "UseDiffuse",
+"Value": "true"
+},
+{
+"Name": "UseSpecular",
+"Value": "false"
+},
+{
+"Name": "Distance",
+"Value": "29.999982833862305"
+},
+{
+"Name": "FalloffType",
+"Value": "INVERSE_SQUARE"
+},
+{
+"Name": "UseSphere",
+"Value": "false"
+},
+{
+"Name": "Type",
+"Value": "POINT"
+}
+]
+}
+}
+}
+}
+}
+]
+}
+},
+{
+"osg.MatrixTransform": {
+"UniqueID": 8,
+"Name": "Lamp.003",
+"Matrix": [
+0.29086,
+0.05519,
+-0.95517,
+0,
+0.7711,
+-0.60452,
+0.19988,
+0,
+-0.56639,
+-0.79467,
+-0.21839,
+0,
+-3.00995,
+0.00108,
+3.17752,
+1
+],
+"Children": [
+{
+"osg.LightSource": {
+"UniqueID": 9,
+"Name": "Lamp.003",
+"StateSet": {
+"osg.StateSet": {
+"UniqueID": 10
+}
+},
+"Light": {
+"osg.Light": {
+"UniqueID": 11,
+"Ambient": [
+1,
+1,
+1,
+1
+],
+"ConstantAttenuation": 0,
+"Diffuse": [
+1,
+1,
+1,
+1
+],
+"Direction": [
+0,
+0,
+-1
+],
+"LightNum": 4,
+"LinearAttenuation": 0,
+"Position": [
+0,
+0,
+0,
+1
+],
+"QuadraticAttenuation": 0.03333,
+"Specular": [
+1,
+1,
+1,
+1
+],
+"SpotCutoff": 180,
+"SpotExponent": 0,
+"UserDataContainer": {
+"UniqueID": 12,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "Energy",
+"Value": "1.0"
+},
+{
+"Name": "Color",
+"Value": "[ 1.000000, 1.000000, 1.000000 ]"
+},
+{
+"Name": "UseDiffuse",
+"Value": "true"
+},
+{
+"Name": "UseSpecular",
+"Value": "true"
+},
+{
+"Name": "Distance",
+"Value": "29.999982833862305"
+},
+{
+"Name": "FalloffType",
+"Value": "INVERSE_SQUARE"
+},
+{
+"Name": "UseSphere",
+"Value": "false"
+},
+{
+"Name": "Type",
+"Value": "POINT"
+}
+]
+}
+}
+}
+}
+}
+]
+}
+},
+{
+"osg.MatrixTransform": {
+"UniqueID": 13,
+"Name": "Circle.002",
+"Matrix": [
+0.39109,
+0,
+0,
+0,
+0,
+0,
+-0.39109,
+0,
+0,
+0.39109,
+0,
+0,
+1.53596,
+0.04545,
+-0.19522,
+1
+],
+"Children": [
+{
+"osg.Node": {
+"UniqueID": 14,
+"Name": "GeodeMesh",
+"Children": [
+{
+"osg.Geometry": {
+"UniqueID": 15,
+"Name": "Circle.002",
+"StateSet": {
+"osg.StateSet": {
+"UniqueID": 16,
+"Name": "glass",
+"AttributeList": [
+{
+"osg.Material": {
+"UniqueID": 20,
+"Name": "glass",
+"Ambient": [
+0,
+0,
+0,
+1
+],
+"Diffuse": [
+0.8,
+0.8,
+0.8,
+1
+],
+"Emission": [
+0,
+0,
+0,
+1
+],
+"Shininess": 12.5,
+"Specular": [
+0.2,
+0.2,
+0.2,
+1
+],
+"UserDataContainer": {
+"UniqueID": 21,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "DiffuseIntensity",
+"Value": "1.0"
+},
+{
+"Name": "DiffuseColor",
+"Value": "[ 0.800000, 0.800000, 0.800000 ]"
+},
+{
+"Name": "SpecularIntensity",
+"Value": "0.20000000298023224"
+},
+{
+"Name": "SpecularColor",
+"Value": "[ 1.000000, 1.000000, 1.000000 ]"
+},
+{
+"Name": "SpecularHardness",
+"Value": "50"
+},
+{
+"Name": "Emit",
+"Value": "0.0"
+},
+{
+"Name": "Ambient",
+"Value": "1.0"
+},
+{
+"Name": "Translucency",
+"Value": "0.0"
+},
+{
+"Name": "DiffuseShader",
+"Value": "LAMBERT"
+},
+{
+"Name": "SpecularShader",
+"Value": "TOON"
+},
+{
+"Name": "Transparency",
+"Value": "true"
+},
+{
+"Name": "TransparencyMethod",
+"Value": "Z_TRANSPARENCY"
+},
+{
+"Name": "SpecularToonSize",
+"Value": "0.4000000059604645"
+},
+{
+"Name": "SpecularToonSmooth",
+"Value": "0.0"
+}
+]
+}
+}
+}
+],
+"TextureAttributeList": [
+[
+{
+"osg.Texture": {
+"UniqueID": 18,
+"Name": "Texture.004",
+"File": "textures/transp.png",
+"MagFilter": "LINEAR",
+"MinFilter": "LINEAR_MIPMAP_LINEAR",
+"WrapS": "REPEAT",
+"WrapT": "REPEAT"
+}
+}
+],
+[
+{
+"osg.Texture": {
+"UniqueID": 19,
+"Name": "Texture.005",
+"File": "textures/refl.jpg",
+"MagFilter": "LINEAR",
+"MinFilter": "LINEAR_MIPMAP_LINEAR",
+"WrapS": "REPEAT",
+"WrapT": "REPEAT"
+}
+}
+]
+],
+"UserDataContainer": {
+"UniqueID": 17,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "00_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "00_DiffuseColor",
+"Value": "1.0"
+},
+{
+"Name": "00_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "00_Alpha",
+"Value": "1.0"
+},
+{
+"Name": "00_BlendType",
+"Value": "MIX"
+},
+{
+"Name": "01_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "01_Mirror",
+"Value": "1.0"
+},
+{
+"Name": "01_BlendType",
+"Value": "MIX"
+}
+]
+}
+}
+},
+"PrimitiveSetList": [
+{
+"DrawElementsUShort": {
+"UniqueID": 27,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 9,
+"Offset": 0
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLES"
+}
+},
+{
+"DrawElementsUShort": {
+"UniqueID": 28,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 62,
+"Offset": 20
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLE_STRIP"
+}
+}
+],
+"VertexAttributeList": {
+"Normal": {
+"UniqueID": 23,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 37,
+"Offset": 144
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+},
+"Tangent": {
+"UniqueID": 26,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 37,
+"Offset": 588
+}
+},
+"ItemSize": 4,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord0": {
+"UniqueID": 24,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 37,
+"Offset": 1180
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord1": {
+"UniqueID": 25,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 37,
+"Offset": 1476
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"Vertex": {
+"UniqueID": 22,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 37,
+"Offset": 1772
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+}
+}
+}
+}
+]
+}
+}
+]
+}
+},
+{
+"osg.MatrixTransform": {
+"UniqueID": 29,
+"Name": "Plane.001",
+"Matrix": [
+4.11901,
+0,
+0,
+0,
+0,
+4.11901,
+0,
+0,
+0,
+0,
+4.11901,
+0,
+1.57442,
+0.04904,
+-3.15136,
+1
+],
+"Children": [
+{
+"osg.Node": {
+"UniqueID": 30,
+"Name": "GeodePlane.001",
+"Children": [
+{
+"osg.Geometry": {
+"UniqueID": 31,
+"Name": "Plane.001",
+"StateSet": {
+"osg.StateSet": {
+"UniqueID": 32,
+"Name": "Material",
+"AttributeList": [
+{
+"osg.Material": {
+"UniqueID": 35,
+"Name": "Material",
+"Ambient": [
+0,
+0,
+0,
+1
+],
+"Diffuse": [
+0.64,
+0.64,
+0.64,
+1
+],
+"Emission": [
+0,
+0,
+0,
+1
+],
+"Shininess": 12.5,
+"Specular": [
+0.5,
+0.5,
+0.5,
+1
+],
+"UserDataContainer": {
+"UniqueID": 36,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "DiffuseIntensity",
+"Value": "0.800000011920929"
+},
+{
+"Name": "DiffuseColor",
+"Value": "[ 0.800000, 0.800000, 0.800000 ]"
+},
+{
+"Name": "SpecularIntensity",
+"Value": "0.5"
+},
+{
+"Name": "SpecularColor",
+"Value": "[ 1.000000, 1.000000, 1.000000 ]"
+},
+{
+"Name": "SpecularHardness",
+"Value": "50"
+},
+{
+"Name": "Shadeless",
+"Value": "true"
+},
+{
+"Name": "Translucency",
+"Value": "0.0"
+},
+{
+"Name": "DiffuseShader",
+"Value": "LAMBERT"
+},
+{
+"Name": "SpecularShader",
+"Value": "COOKTORR"
+},
+{
+"Name": "Transparency",
+"Value": "true"
+},
+{
+"Name": "TransparencyMethod",
+"Value": "Z_TRANSPARENCY"
+}
+]
+}
+}
+}
+],
+"TextureAttributeList": [
+[
+{
+"osg.Texture": {
+"UniqueID": 34,
+"Name": "Texture.011",
+"File": "textures/ao1.png",
+"MagFilter": "LINEAR",
+"MinFilter": "LINEAR_MIPMAP_LINEAR",
+"WrapS": "REPEAT",
+"WrapT": "REPEAT"
+}
+}
+]
+],
+"UserDataContainer": {
+"UniqueID": 33,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "00_UsePremultiplyAlpha",
+"Value": "true"
+},
+{
+"Name": "00_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "00_DiffuseColor",
+"Value": "1.0"
+},
+{
+"Name": "00_UsePremultiplyAlpha",
+"Value": "true"
+},
+{
+"Name": "00_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "00_Alpha",
+"Value": "1.0"
+},
+{
+"Name": "00_BlendType",
+"Value": "MIX"
+}
+]
+}
+}
+},
+"PrimitiveSetList": [
+{
+"DrawElementsUShort": {
+"UniqueID": 41,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 4,
+"Offset": 2216
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLE_STRIP"
+}
+}
+],
+"VertexAttributeList": {
+"Normal": {
+"UniqueID": 38,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 4,
+"Offset": 2224
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+},
+"Tangent": {
+"UniqueID": 40,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 4,
+"Offset": 2272
+}
+},
+"ItemSize": 4,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord0": {
+"UniqueID": 39,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 4,
+"Offset": 2336
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"Vertex": {
+"UniqueID": 37,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 4,
+"Offset": 2368
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+}
+}
+}
+}
+]
+}
+}
+]
+}
+},
+{
+"osg.MatrixTransform": {
+"UniqueID": 42,
+"Name": "Circle.000",
+"Matrix": [
+0,
+0.82277,
+0,
+0,
+0.82071,
+0,
+0,
+0,
+0,
+0,
+-0.82277,
+0,
+1.53397,
+0.04722,
+-0.27806,
+1
+],
+"Children": [
+{
+"osg.Node": {
+"UniqueID": 43,
+"Name": "GeodeMesh.001",
+"Children": [
+{
+"osg.Geometry": {
+"UniqueID": 44,
+"Name": "Circle.000",
+"StateSet": {
+"osg.StateSet": {
+"UniqueID": 16
+}
+},
+"PrimitiveSetList": [
+{
+"DrawElementsUShort": {
+"UniqueID": 50,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 77,
+"Offset": 2416
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLE_STRIP"
+}
+}
+],
+"VertexAttributeList": {
+"Normal": {
+"UniqueID": 46,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 32,
+"Offset": 2572
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+},
+"Tangent": {
+"UniqueID": 49,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 32,
+"Offset": 2956
+}
+},
+"ItemSize": 4,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord0": {
+"UniqueID": 47,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 32,
+"Offset": 3468
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord1": {
+"UniqueID": 48,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 32,
+"Offset": 3724
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"Vertex": {
+"UniqueID": 45,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 32,
+"Offset": 3980
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+}
+}
+}
+}
+]
+}
+}
+]
+}
+},
+{
+"osg.MatrixTransform": {
+"UniqueID": 51,
+"Name": "Circle.004",
+"Matrix": [
+0.39109,
+0,
+0,
+0,
+0,
+0,
+-0.39109,
+0,
+0,
+0.39109,
+0,
+0,
+1.53596,
+0.04545,
+-0.19522,
+1
+],
+"Children": [
+{
+"osg.Node": {
+"UniqueID": 52,
+"Name": "GeodeMesh.002",
+"Children": [
+{
+"osg.Geometry": {
+"UniqueID": 53,
+"Name": "Circle.004",
+"StateSet": {
+"osg.StateSet": {
+"UniqueID": 16
+}
+},
+"PrimitiveSetList": [
+{
+"DrawElementsUShort": {
+"UniqueID": 59,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 72,
+"Offset": 4364
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLE_STRIP"
+}
+}
+],
+"VertexAttributeList": {
+"Normal": {
+"UniqueID": 55,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 32,
+"Offset": 4508
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+},
+"Tangent": {
+"UniqueID": 58,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 32,
+"Offset": 4892
+}
+},
+"ItemSize": 4,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord0": {
+"UniqueID": 56,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 32,
+"Offset": 5404
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord1": {
+"UniqueID": 57,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 32,
+"Offset": 5660
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"Vertex": {
+"UniqueID": 54,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 32,
+"Offset": 5916
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+}
+}
+}
+}
+]
+}
+}
+]
+}
+},
+{
+"osg.MatrixTransform": {
+"UniqueID": 60,
+"Name": "Circle.001",
+"Matrix": [
+0.39109,
+0,
+0,
+0,
+0,
+0,
+-0.39109,
+0,
+0,
+0.39109,
+0,
+0,
+1.53596,
+0.04776,
+-0.16957,
+1
+],
+"Children": [
+{
+"osg.Node": {
+"UniqueID": 61,
+"Name": "GeodeMesh.003",
+"Children": [
+{
+"osg.Geometry": {
+"UniqueID": 62,
+"Name": "Circle.001",
+"StateSet": {
+"osg.StateSet": {
+"UniqueID": 63,
+"Name": "coque",
+"AttributeList": [
+{
+"osg.Material": {
+"UniqueID": 66,
+"Name": "coque",
+"Ambient": [
+0,
+0,
+0,
+1
+],
+"Diffuse": [
+0.0648,
+0.0648,
+0.0648,
+1
+],
+"Emission": [
+0,
+0,
+0,
+1
+],
+"Shininess": 12.5,
+"Specular": [
+0.4,
+0.4,
+0.4,
+1
+],
+"UserDataContainer": {
+"UniqueID": 67,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "DiffuseIntensity",
+"Value": "1.0"
+},
+{
+"Name": "DiffuseColor",
+"Value": "[ 0.064803, 0.064803, 0.064803 ]"
+},
+{
+"Name": "SpecularIntensity",
+"Value": "0.4000000059604645"
+},
+{
+"Name": "SpecularColor",
+"Value": "[ 1.000000, 1.000000, 1.000000 ]"
+},
+{
+"Name": "SpecularHardness",
+"Value": "50"
+},
+{
+"Name": "Emit",
+"Value": "0.0"
+},
+{
+"Name": "Ambient",
+"Value": "1.0"
+},
+{
+"Name": "Translucency",
+"Value": "0.0"
+},
+{
+"Name": "DiffuseShader",
+"Value": "LAMBERT"
+},
+{
+"Name": "SpecularShader",
+"Value": "TOON"
+},
+{
+"Name": "SpecularToonSize",
+"Value": "0.19999998807907104"
+},
+{
+"Name": "SpecularToonSmooth",
+"Value": "0.20792078971862793"
+}
+]
+}
+}
+}
+],
+"TextureAttributeList": [
+[
+{
+"osg.Texture": {
+"UniqueID": 65,
+"Name": "Texture.003",
+"File": "textures/shade.jpg",
+"MagFilter": "LINEAR",
+"MinFilter": "LINEAR_MIPMAP_LINEAR",
+"WrapS": "REPEAT",
+"WrapT": "REPEAT"
+}
+}
+],
+[
+{
+"osg.Texture": {
+"UniqueID": 19
+}
+}
+]
+],
+"UserDataContainer": {
+"UniqueID": 64,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "00_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "00_DiffuseColor",
+"Value": "1.0"
+},
+{
+"Name": "00_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "00_SpecularColor",
+"Value": "1.0"
+},
+{
+"Name": "00_BlendType",
+"Value": "MULTIPLY"
+},
+{
+"Name": "01_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "01_Mirror",
+"Value": "0.0"
+},
+{
+"Name": "01_BlendType",
+"Value": "MIX"
+}
+]
+}
+}
+},
+"PrimitiveSetList": [
+{
+"DrawElementsUShort": {
+"UniqueID": 73,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 726,
+"Offset": 6300
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLES"
+}
+},
+{
+"DrawElementsUShort": {
+"UniqueID": 74,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 11186,
+"Offset": 7752
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLE_STRIP"
+}
+}
+],
+"VertexAttributeList": {
+"Normal": {
+"UniqueID": 69,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 7495,
+"Offset": 30124
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+},
+"Tangent": {
+"UniqueID": 72,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 7495,
+"Offset": 120064
+}
+},
+"ItemSize": 4,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord0": {
+"UniqueID": 70,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 7495,
+"Offset": 239984
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord1": {
+"UniqueID": 71,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 7495,
+"Offset": 299944
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"Vertex": {
+"UniqueID": 68,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 7495,
+"Offset": 359904
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+}
+}
+}
+},
+{
+"osg.Geometry": {
+"UniqueID": 75,
+"Name": "Circle.001",
+"StateSet": {
+"osg.StateSet": {
+"UniqueID": 76,
+"Name": "gloss",
+"AttributeList": [
+{
+"osg.Material": {
+"UniqueID": 78,
+"Name": "gloss",
+"Ambient": [
+0,
+0,
+0,
+1
+],
+"Diffuse": [
+0.00518,
+0.00368,
+0.00273,
+1
+],
+"Emission": [
+0,
+0,
+0,
+1
+],
+"Shininess": 12.5,
+"Specular": [
+0.2,
+0.2,
+0.2,
+1
+],
+"UserDataContainer": {
+"UniqueID": 79,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "DiffuseIntensity",
+"Value": "1.0"
+},
+{
+"Name": "DiffuseColor",
+"Value": "[ 0.005182, 0.003677, 0.002732 ]"
+},
+{
+"Name": "SpecularIntensity",
+"Value": "0.20000000298023224"
+},
+{
+"Name": "SpecularColor",
+"Value": "[ 1.000000, 1.000000, 1.000000 ]"
+},
+{
+"Name": "SpecularHardness",
+"Value": "50"
+},
+{
+"Name": "Emit",
+"Value": "0.0"
+},
+{
+"Name": "Ambient",
+"Value": "1.0"
+},
+{
+"Name": "Translucency",
+"Value": "0.0"
+},
+{
+"Name": "DiffuseShader",
+"Value": "LAMBERT"
+},
+{
+"Name": "SpecularShader",
+"Value": "TOON"
+},
+{
+"Name": "SpecularToonSize",
+"Value": "0.4000000059604645"
+},
+{
+"Name": "SpecularToonSmooth",
+"Value": "0.0"
+}
+]
+}
+}
+}
+],
+"TextureAttributeList": [
+[
+{
+"osg.Texture": {
+"UniqueID": 19
+}
+}
+]
+],
+"UserDataContainer": {
+"UniqueID": 77,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "00_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "00_Mirror",
+"Value": "0.25"
+},
+{
+"Name": "00_BlendType",
+"Value": "MIX"
+}
+]
+}
+}
+},
+"PrimitiveSetList": [
+{
+"DrawElementsUShort": {
+"UniqueID": 84,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 270,
+"Offset": 449844
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLES"
+}
+},
+{
+"DrawElementsUShort": {
+"UniqueID": 85,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 192,
+"Offset": 450384
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLE_STRIP"
+}
+}
+],
+"VertexAttributeList": {
+"Normal": {
+"UniqueID": 81,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 275,
+"Offset": 450768
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+},
+"Tangent": {
+"UniqueID": 83,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 275,
+"Offset": 454068
+}
+},
+"ItemSize": 4,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord0": {
+"UniqueID": 82,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 275,
+"Offset": 458468
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"Vertex": {
+"UniqueID": 80,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 275,
+"Offset": 460668
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+}
+}
+}
+},
+{
+"osg.Geometry": {
+"UniqueID": 86,
+"Name": "Circle.001",
+"StateSet": {
+"osg.StateSet": {
+"UniqueID": 87,
+"Name": "pur black",
+"AttributeList": [
+{
+"osg.Material": {
+"UniqueID": 89,
+"Name": "pur black",
+"Ambient": [
+0,
+0,
+0,
+1
+],
+"Diffuse": [
+0,
+0,
+0,
+1
+],
+"Emission": [
+0,
+0,
+0,
+1
+],
+"Shininess": 12.5,
+"Specular": [
+0,
+0,
+0,
+1
+],
+"UserDataContainer": {
+"UniqueID": 90,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "DiffuseIntensity",
+"Value": "0.800000011920929"
+},
+{
+"Name": "DiffuseColor",
+"Value": "[ 0.000000, 0.000000, 0.000000 ]"
+},
+{
+"Name": "SpecularIntensity",
+"Value": "0.0"
+},
+{
+"Name": "SpecularColor",
+"Value": "[ 1.000000, 1.000000, 1.000000 ]"
+},
+{
+"Name": "SpecularHardness",
+"Value": "50"
+},
+{
+"Name": "Shadeless",
+"Value": "true"
+},
+{
+"Name": "Translucency",
+"Value": "0.0"
+},
+{
+"Name": "DiffuseShader",
+"Value": "LAMBERT"
+},
+{
+"Name": "SpecularShader",
+"Value": "COOKTORR"
+}
+]
+}
+}
+}
+],
+"TextureAttributeList": [
+[
+{
+"osg.Texture": {
+"UniqueID": 19
+}
+}
+]
+],
+"UserDataContainer": {
+"UniqueID": 88,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "00_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "00_Mirror",
+"Value": "1.0"
+},
+{
+"Name": "00_BlendType",
+"Value": "MIX"
+}
+]
+}
+}
+},
+"PrimitiveSetList": [
+{
+"DrawElementsUShort": {
+"UniqueID": 95,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 120,
+"Offset": 463968
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLE_STRIP"
+}
+}
+],
+"VertexAttributeList": {
+"Normal": {
+"UniqueID": 92,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 76,
+"Offset": 464208
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+},
+"Tangent": {
+"UniqueID": 94,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 76,
+"Offset": 465120
+}
+},
+"ItemSize": 4,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord0": {
+"UniqueID": 93,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 76,
+"Offset": 466336
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"Vertex": {
+"UniqueID": 91,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 76,
+"Offset": 466944
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+}
+}
+}
+},
+{
+"osg.Geometry": {
+"UniqueID": 96,
+"Name": "Circle.001",
+"StateSet": {
+"osg.StateSet": {
+"UniqueID": 97,
+"Name": "camera",
+"AttributeList": [
+{
+"osg.Material": {
+"UniqueID": 99,
+"Name": "camera",
+"Ambient": [
+0,
+0,
+0,
+1
+],
+"Diffuse": [
+0.21764,
+0.21764,
+0.21764,
+1
+],
+"Emission": [
+0,
+0,
+0,
+1
+],
+"Shininess": 12.5,
+"Specular": [
+0,
+0,
+0,
+1
+],
+"UserDataContainer": {
+"UniqueID": 100,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "DiffuseIntensity",
+"Value": "1.0"
+},
+{
+"Name": "DiffuseColor",
+"Value": "[ 0.217636, 0.217636, 0.217636 ]"
+},
+{
+"Name": "SpecularIntensity",
+"Value": "0.0"
+},
+{
+"Name": "SpecularColor",
+"Value": "[ 1.000000, 1.000000, 1.000000 ]"
+},
+{
+"Name": "SpecularHardness",
+"Value": "50"
+},
+{
+"Name": "Emit",
+"Value": "0.0"
+},
+{
+"Name": "Ambient",
+"Value": "1.0"
+},
+{
+"Name": "Translucency",
+"Value": "0.0"
+},
+{
+"Name": "DiffuseShader",
+"Value": "LAMBERT"
+},
+{
+"Name": "SpecularShader",
+"Value": "TOON"
+},
+{
+"Name": "SpecularToonSize",
+"Value": "0.0"
+},
+{
+"Name": "SpecularToonSmooth",
+"Value": "0.0"
+}
+]
+}
+}
+}
+],
+"TextureAttributeList": [
+[
+{
+"osg.Texture": {
+"UniqueID": 19
+}
+}
+]
+],
+"UserDataContainer": {
+"UniqueID": 98,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "00_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "00_Mirror",
+"Value": "1.0"
+},
+{
+"Name": "00_BlendType",
+"Value": "MIX"
+}
+]
+}
+}
+},
+"PrimitiveSetList": [
+{
+"DrawElementsUShort": {
+"UniqueID": 105,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 1342,
+"Offset": 467856
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLE_STRIP"
+}
+}
+],
+"VertexAttributeList": {
+"Normal": {
+"UniqueID": 102,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 896,
+"Offset": 470540
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+},
+"Tangent": {
+"UniqueID": 104,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 896,
+"Offset": 481292
+}
+},
+"ItemSize": 4,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord0": {
+"UniqueID": 103,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 896,
+"Offset": 495628
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"Vertex": {
+"UniqueID": 101,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 896,
+"Offset": 502796
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+}
+}
+}
+},
+{
+"osg.Geometry": {
+"UniqueID": 106,
+"Name": "Circle.001",
+"StateSet": {
+"osg.StateSet": {
+"UniqueID": 107,
+"Name": "lens",
+"AttributeList": [
+{
+"osg.Material": {
+"UniqueID": 109,
+"Name": "lens",
+"Ambient": [
+0,
+0,
+0,
+1
+],
+"Diffuse": [
+0.00857,
+0.07619,
+0.20508,
+1
+],
+"Emission": [
+0,
+0,
+0,
+1
+],
+"Shininess": 12.5,
+"Specular": [
+0.05286,
+0.21586,
+0.36131,
+1
+],
+"UserDataContainer": {
+"UniqueID": 110,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "DiffuseIntensity",
+"Value": "1.0"
+},
+{
+"Name": "DiffuseColor",
+"Value": "[ 0.008568, 0.076185, 0.205079 ]"
+},
+{
+"Name": "SpecularIntensity",
+"Value": "1.0"
+},
+{
+"Name": "SpecularColor",
+"Value": "[ 0.052861, 0.215861, 0.361307 ]"
+},
+{
+"Name": "SpecularHardness",
+"Value": "50"
+},
+{
+"Name": "Emit",
+"Value": "0.0"
+},
+{
+"Name": "Ambient",
+"Value": "1.0"
+},
+{
+"Name": "Translucency",
+"Value": "0.0"
+},
+{
+"Name": "DiffuseShader",
+"Value": "LAMBERT"
+},
+{
+"Name": "SpecularShader",
+"Value": "TOON"
+},
+{
+"Name": "SpecularToonSize",
+"Value": "0.5"
+},
+{
+"Name": "SpecularToonSmooth",
+"Value": "0.10000000149011612"
+}
+]
+}
+}
+}
+],
+"TextureAttributeList": [
+[
+{
+"osg.Texture": {
+"UniqueID": 19
+}
+}
+]
+],
+"UserDataContainer": {
+"UniqueID": 108,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "00_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "00_Mirror",
+"Value": "1.0"
+},
+{
+"Name": "00_BlendType",
+"Value": "MIX"
+}
+]
+}
+}
+},
+"PrimitiveSetList": [
+{
+"DrawElementsUShort": {
+"UniqueID": 115,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 192,
+"Offset": 513548
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLES"
+}
+},
+{
+"DrawElementsUShort": {
+"UniqueID": 116,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 1150,
+"Offset": 513932
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLE_STRIP"
+}
+}
+],
+"VertexAttributeList": {
+"Normal": {
+"UniqueID": 112,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 898,
+"Offset": 516232
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+},
+"Tangent": {
+"UniqueID": 114,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 898,
+"Offset": 527008
+}
+},
+"ItemSize": 4,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord0": {
+"UniqueID": 113,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 898,
+"Offset": 541376
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"Vertex": {
+"UniqueID": 111,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 898,
+"Offset": 548560
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+}
+}
+}
+},
+{
+"osg.Geometry": {
+"UniqueID": 117,
+"Name": "Circle.001",
+"StateSet": {
+"osg.StateSet": {
+"UniqueID": 118,
+"Name": "camera2",
+"AttributeList": [
+{
+"osg.Material": {
+"UniqueID": 120,
+"Name": "camera2",
+"Ambient": [
+0,
+0,
+0,
+1
+],
+"Diffuse": [
+0.09411,
+0.09411,
+0.09411,
+1
+],
+"Emission": [
+0,
+0,
+0,
+1
+],
+"Shininess": 12.5,
+"Specular": [
+0,
+0,
+0,
+1
+],
+"UserDataContainer": {
+"UniqueID": 121,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "DiffuseIntensity",
+"Value": "1.0"
+},
+{
+"Name": "DiffuseColor",
+"Value": "[ 0.094106, 0.094106, 0.094106 ]"
+},
+{
+"Name": "SpecularIntensity",
+"Value": "0.0"
+},
+{
+"Name": "SpecularColor",
+"Value": "[ 1.000000, 1.000000, 1.000000 ]"
+},
+{
+"Name": "SpecularHardness",
+"Value": "50"
+},
+{
+"Name": "Emit",
+"Value": "0.0"
+},
+{
+"Name": "Ambient",
+"Value": "1.0"
+},
+{
+"Name": "Translucency",
+"Value": "0.0"
+},
+{
+"Name": "DiffuseShader",
+"Value": "LAMBERT"
+},
+{
+"Name": "SpecularShader",
+"Value": "TOON"
+},
+{
+"Name": "SpecularToonSize",
+"Value": "0.0"
+},
+{
+"Name": "SpecularToonSmooth",
+"Value": "0.0"
+}
+]
+}
+}
+}
+],
+"TextureAttributeList": [
+[
+{
+"osg.Texture": {
+"UniqueID": 19
+}
+}
+]
+],
+"UserDataContainer": {
+"UniqueID": 119,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "00_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "00_Mirror",
+"Value": "1.0"
+},
+{
+"Name": "00_BlendType",
+"Value": "MIX"
+}
+]
+}
+}
+},
+"PrimitiveSetList": [
+{
+"DrawElementsUShort": {
+"UniqueID": 126,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 574,
+"Offset": 559336
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLE_STRIP"
+}
+}
+],
+"VertexAttributeList": {
+"Normal": {
+"UniqueID": 123,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 384,
+"Offset": 560484
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+},
+"Tangent": {
+"UniqueID": 125,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 384,
+"Offset": 565092
+}
+},
+"ItemSize": 4,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord0": {
+"UniqueID": 124,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 384,
+"Offset": 571236
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"Vertex": {
+"UniqueID": 122,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 384,
+"Offset": 574308
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+}
+}
+}
+},
+{
+"osg.Geometry": {
+"UniqueID": 127,
+"Name": "Circle.001",
+"StateSet": {
+"osg.StateSet": {
+"UniqueID": 128,
+"Name": "back",
+"AttributeList": [
+{
+"osg.Material": {
+"UniqueID": 132,
+"Name": "back",
+"Ambient": [
+0,
+0,
+0,
+1
+],
+"Diffuse": [
+0.05184,
+0.05184,
+0.05184,
+1
+],
+"Emission": [
+0,
+0,
+0,
+1
+],
+"Shininess": 12.5,
+"Specular": [
+0.2,
+0.2,
+0.2,
+1
+],
+"UserDataContainer": {
+"UniqueID": 133,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "DiffuseIntensity",
+"Value": "0.800000011920929"
+},
+{
+"Name": "DiffuseColor",
+"Value": "[ 0.064803, 0.064803, 0.064803 ]"
+},
+{
+"Name": "SpecularIntensity",
+"Value": "0.20000000298023224"
+},
+{
+"Name": "SpecularColor",
+"Value": "[ 1.000000, 1.000000, 1.000000 ]"
+},
+{
+"Name": "SpecularHardness",
+"Value": "50"
+},
+{
+"Name": "Emit",
+"Value": "0.0"
+},
+{
+"Name": "Ambient",
+"Value": "1.0"
+},
+{
+"Name": "Translucency",
+"Value": "0.0"
+},
+{
+"Name": "DiffuseShader",
+"Value": "LAMBERT"
+},
+{
+"Name": "SpecularShader",
+"Value": "TOON"
+},
+{
+"Name": "SpecularToonSize",
+"Value": "0.4000000059604645"
+},
+{
+"Name": "SpecularToonSmooth",
+"Value": "0.0"
+}
+]
+}
+}
+}
+],
+"TextureAttributeList": [
+[
+{
+"osg.Texture": {
+"UniqueID": 130,
+"Name": "Texture.008",
+"File": "textures/backtex_2.jpg",
+"MagFilter": "LINEAR",
+"MinFilter": "LINEAR_MIPMAP_LINEAR",
+"WrapS": "REPEAT",
+"WrapT": "REPEAT"
+}
+}
+],
+[
+{
+"osg.Texture": {
+"UniqueID": 131,
+"Name": "Texture.006",
+"File": "textures/backtex.png",
+"MagFilter": "LINEAR",
+"MinFilter": "LINEAR_MIPMAP_LINEAR",
+"WrapS": "REPEAT",
+"WrapT": "REPEAT"
+}
+}
+]
+],
+"UserDataContainer": {
+"UniqueID": 129,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "00_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "00_SpecularColor",
+"Value": "1.0"
+},
+{
+"Name": "00_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "00_Mirror",
+"Value": "1.0"
+},
+{
+"Name": "00_BlendType",
+"Value": "MIX"
+},
+{
+"Name": "01_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "01_DiffuseColor",
+"Value": "1.0"
+},
+{
+"Name": "01_BlendType",
+"Value": "MULTIPLY"
+}
+]
+}
+}
+},
+"PrimitiveSetList": [
+{
+"DrawElementsUShort": {
+"UniqueID": 139,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 6,
+"Offset": 578916
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLES"
+}
+},
+{
+"DrawElementsUShort": {
+"UniqueID": 140,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 18,
+"Offset": 578928
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLE_STRIP"
+}
+}
+],
+"VertexAttributeList": {
+"Normal": {
+"UniqueID": 135,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 12,
+"Offset": 578964
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+},
+"Tangent": {
+"UniqueID": 138,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 12,
+"Offset": 579108
+}
+},
+"ItemSize": 4,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord0": {
+"UniqueID": 136,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 12,
+"Offset": 579300
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord1": {
+"UniqueID": 137,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 12,
+"Offset": 579396
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"Vertex": {
+"UniqueID": 134,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 12,
+"Offset": 579492
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+}
+}
+}
+},
+{
+"osg.Geometry": {
+"UniqueID": 141,
+"Name": "Circle.001",
+"StateSet": {
+"osg.StateSet": {
+"UniqueID": 142,
+"Name": "screen",
+"AttributeList": [
+{
+"osg.Material": {
+"UniqueID": 145,
+"Name": "screen",
+"Ambient": [
+0,
+0,
+0,
+1
+],
+"Diffuse": [
+0.64,
+0.64,
+0.64,
+1
+],
+"Emission": [
+0,
+0,
+0,
+1
+],
+"Shininess": 12.5,
+"Specular": [
+0.2,
+0.2,
+0.2,
+1
+],
+"UserDataContainer": {
+"UniqueID": 146,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "DiffuseIntensity",
+"Value": "0.800000011920929"
+},
+{
+"Name": "DiffuseColor",
+"Value": "[ 0.800000, 0.800000, 0.800000 ]"
+},
+{
+"Name": "SpecularIntensity",
+"Value": "0.20000000298023224"
+},
+{
+"Name": "SpecularColor",
+"Value": "[ 1.000000, 1.000000, 1.000000 ]"
+},
+{
+"Name": "SpecularHardness",
+"Value": "50"
+},
+{
+"Name": "Emit",
+"Value": "0.0"
+},
+{
+"Name": "Ambient",
+"Value": "1.0"
+},
+{
+"Name": "Translucency",
+"Value": "0.0"
+},
+{
+"Name": "DiffuseShader",
+"Value": "LAMBERT"
+},
+{
+"Name": "SpecularShader",
+"Value": "TOON"
+},
+{
+"Name": "SpecularToonSize",
+"Value": "0.4000000059604645"
+},
+{
+"Name": "SpecularToonSmooth",
+"Value": "0.0"
+}
+]
+}
+}
+}
+],
+"TextureAttributeList": [
+[
+{
+"osg.Texture": {
+"UniqueID": 144,
+"Name": "Texture",
+"File": "textures/texscreen.jpg",
+"MagFilter": "LINEAR",
+"MinFilter": "LINEAR_MIPMAP_LINEAR",
+"WrapS": "REPEAT",
+"WrapT": "REPEAT"
+}
+}
+],
+[
+{
+"osg.Texture": {
+"UniqueID": 19
+}
+}
+]
+],
+"UserDataContainer": {
+"UniqueID": 143,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "00_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "00_DiffuseColor",
+"Value": "1.0"
+},
+{
+"Name": "00_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "00_Emit",
+"Value": "1.0"
+},
+{
+"Name": "00_BlendType",
+"Value": "MIX"
+},
+{
+"Name": "01_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "01_Mirror",
+"Value": "1.0"
+},
+{
+"Name": "01_BlendType",
+"Value": "MIX"
+}
+]
+}
+}
+},
+"PrimitiveSetList": [
+{
+"DrawElementsUShort": {
+"UniqueID": 152,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 12,
+"Offset": 579636
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLE_STRIP"
+}
+}
+],
+"VertexAttributeList": {
+"Normal": {
+"UniqueID": 148,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 8,
+"Offset": 579660
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+},
+"Tangent": {
+"UniqueID": 151,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 8,
+"Offset": 579756
+}
+},
+"ItemSize": 4,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord0": {
+"UniqueID": 149,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 8,
+"Offset": 579884
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord1": {
+"UniqueID": 150,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 8,
+"Offset": 579948
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"Vertex": {
+"UniqueID": 147,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 8,
+"Offset": 580012
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+}
+}
+}
+},
+{
+"osg.Geometry": {
+"UniqueID": 153,
+"Name": "Circle.001",
+"StateSet": {
+"osg.StateSet": {
+"UniqueID": 154,
+"Name": "button",
+"AttributeList": [
+{
+"osg.Material": {
+"UniqueID": 157,
+"Name": "button",
+"Ambient": [
+0,
+0,
+0,
+1
+],
+"Diffuse": [
+0.00518,
+0.00368,
+0.00273,
+0
+],
+"Emission": [
+0,
+0,
+0,
+1
+],
+"Shininess": 12.5,
+"Specular": [
+0.2,
+0.2,
+0.2,
+1
+],
+"UserDataContainer": {
+"UniqueID": 158,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "DiffuseIntensity",
+"Value": "1.0"
+},
+{
+"Name": "DiffuseColor",
+"Value": "[ 0.005182, 0.003677, 0.002732 ]"
+},
+{
+"Name": "SpecularIntensity",
+"Value": "0.20000000298023224"
+},
+{
+"Name": "SpecularColor",
+"Value": "[ 1.000000, 1.000000, 1.000000 ]"
+},
+{
+"Name": "SpecularHardness",
+"Value": "50"
+},
+{
+"Name": "Emit",
+"Value": "0.0"
+},
+{
+"Name": "Ambient",
+"Value": "1.0"
+},
+{
+"Name": "Translucency",
+"Value": "0.0"
+},
+{
+"Name": "DiffuseShader",
+"Value": "LAMBERT"
+},
+{
+"Name": "SpecularShader",
+"Value": "TOON"
+},
+{
+"Name": "Transparency",
+"Value": "true"
+},
+{
+"Name": "TransparencyMethod",
+"Value": "Z_TRANSPARENCY"
+},
+{
+"Name": "SpecularToonSize",
+"Value": "0.4000000059604645"
+},
+{
+"Name": "SpecularToonSmooth",
+"Value": "0.0"
+}
+]
+}
+}
+},
+{
+"osg.BlendFunc": {
+"UniqueID": 159,
+"DestinationAlpha": "ONE_MINUS_SRC_ALPHA",
+"DestinationRGB": "ONE_MINUS_SRC_ALPHA",
+"SourceAlpha": "SRC_ALPHA",
+"SourceRGB": "SRC_ALPHA"
+}
+}
+],
+"TextureAttributeList": [
+[
+{
+"osg.Texture": {
+"UniqueID": 156,
+"Name": "Texture.002",
+"File": "textures/buton.jpg",
+"MagFilter": "LINEAR",
+"MinFilter": "LINEAR_MIPMAP_LINEAR",
+"WrapS": "REPEAT",
+"WrapT": "REPEAT"
+}
+}
+],
+[
+{
+"osg.Texture": {
+"UniqueID": 19
+}
+}
+]
+],
+"UserDataContainer": {
+"UniqueID": 155,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "00_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "00_DiffuseColor",
+"Value": "1.0"
+},
+{
+"Name": "00_BlendType",
+"Value": "MIX"
+},
+{
+"Name": "01_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "01_Mirror",
+"Value": "0.05000000074505806"
+},
+{
+"Name": "01_BlendType",
+"Value": "MIX"
+}
+]
+}
+}
+},
+"PrimitiveSetList": [
+{
+"DrawElementsUShort": {
+"UniqueID": 165,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 366,
+"Offset": 580108
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLES"
+}
+},
+{
+"DrawElementsUShort": {
+"UniqueID": 166,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 2686,
+"Offset": 580840
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLE_STRIP"
+}
+}
+],
+"VertexAttributeList": {
+"Normal": {
+"UniqueID": 161,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 1832,
+"Offset": 586212
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+},
+"Tangent": {
+"UniqueID": 164,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 1832,
+"Offset": 608196
+}
+},
+"ItemSize": 4,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord0": {
+"UniqueID": 162,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 1832,
+"Offset": 637508
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord1": {
+"UniqueID": 163,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 1832,
+"Offset": 652164
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"Vertex": {
+"UniqueID": 160,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 1832,
+"Offset": 666820
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+}
+}
+}
+},
+{
+"osg.Geometry": {
+"UniqueID": 167,
+"Name": "Circle.001",
+"StateSet": {
+"osg.StateSet": {
+"UniqueID": 168,
+"Name": "grid",
+"AttributeList": [
+{
+"osg.Material": {
+"UniqueID": 171,
+"Name": "grid",
+"Ambient": [
+0,
+0,
+0,
+1
+],
+"Diffuse": [
+0.64,
+0.64,
+0.64,
+1
+],
+"Emission": [
+0,
+0,
+0,
+1
+],
+"Shininess": 5.75,
+"Specular": [
+1,
+1,
+1,
+1
+],
+"UserDataContainer": {
+"UniqueID": 172,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "DiffuseIntensity",
+"Value": "0.800000011920929"
+},
+{
+"Name": "DiffuseColor",
+"Value": "[ 0.800000, 0.800000, 0.800000 ]"
+},
+{
+"Name": "SpecularIntensity",
+"Value": "1.0"
+},
+{
+"Name": "SpecularColor",
+"Value": "[ 1.000000, 1.000000, 1.000000 ]"
+},
+{
+"Name": "SpecularHardness",
+"Value": "23"
+},
+{
+"Name": "Emit",
+"Value": "0.0"
+},
+{
+"Name": "Ambient",
+"Value": "1.0"
+},
+{
+"Name": "Translucency",
+"Value": "0.0"
+},
+{
+"Name": "DiffuseShader",
+"Value": "LAMBERT"
+},
+{
+"Name": "SpecularShader",
+"Value": "PHONG"
+}
+]
+}
+}
+}
+],
+"TextureAttributeList": [
+[
+{
+"osg.Texture": {
+"UniqueID": 170,
+"Name": "Texture.001",
+"File": "textures/grid.jpg",
+"MagFilter": "LINEAR",
+"MinFilter": "LINEAR_MIPMAP_LINEAR",
+"WrapS": "REPEAT",
+"WrapT": "REPEAT"
+}
+}
+],
+[
+{
+"osg.Texture": {
+"UniqueID": 19
+}
+}
+]
+],
+"UserDataContainer": {
+"UniqueID": 169,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "00_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "00_DiffuseColor",
+"Value": "1.0"
+},
+{
+"Name": "00_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "00_SpecularColor",
+"Value": "1.0"
+},
+{
+"Name": "00_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "00_Emit",
+"Value": "1.0"
+},
+{
+"Name": "00_BlendType",
+"Value": "MIX"
+},
+{
+"Name": "01_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "01_Mirror",
+"Value": "1.0"
+},
+{
+"Name": "01_BlendType",
+"Value": "MIX"
+}
+]
+}
+}
+},
+"PrimitiveSetList": [
+{
+"DrawElementsUShort": {
+"UniqueID": 178,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 3,
+"Offset": 688804
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLES"
+}
+},
+{
+"DrawElementsUShort": {
+"UniqueID": 179,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 87,
+"Offset": 688812
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLE_STRIP"
+}
+}
+],
+"VertexAttributeList": {
+"Normal": {
+"UniqueID": 174,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 38,
+"Offset": 688988
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+},
+"Tangent": {
+"UniqueID": 177,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 38,
+"Offset": 689444
+}
+},
+"ItemSize": 4,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord0": {
+"UniqueID": 175,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 38,
+"Offset": 690052
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord1": {
+"UniqueID": 176,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 38,
+"Offset": 690356
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"Vertex": {
+"UniqueID": 173,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 38,
+"Offset": 690660
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+}
+}
+}
+},
+{
+"osg.Geometry": {
+"UniqueID": 180,
+"Name": "Circle.001",
+"StateSet": {
+"osg.StateSet": {
+"UniqueID": 181,
+"Name": "camera3",
+"AttributeList": [
+{
+"osg.Material": {
+"UniqueID": 183,
+"Name": "camera3",
+"Ambient": [
+0,
+0,
+0,
+1
+],
+"Diffuse": [
+0.0245,
+0.02434,
+0.02434,
+1
+],
+"Emission": [
+0,
+0,
+0,
+1
+],
+"Shininess": 12.5,
+"Specular": [
+0,
+0,
+0,
+1
+],
+"UserDataContainer": {
+"UniqueID": 184,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "DiffuseIntensity",
+"Value": "0.49000000953674316"
+},
+{
+"Name": "DiffuseColor",
+"Value": "[ 0.050000, 0.049667, 0.049667 ]"
+},
+{
+"Name": "SpecularIntensity",
+"Value": "0.0"
+},
+{
+"Name": "SpecularColor",
+"Value": "[ 1.000000, 1.000000, 1.000000 ]"
+},
+{
+"Name": "SpecularHardness",
+"Value": "50"
+},
+{
+"Name": "Emit",
+"Value": "0.0"
+},
+{
+"Name": "Ambient",
+"Value": "1.0"
+},
+{
+"Name": "Translucency",
+"Value": "0.0"
+},
+{
+"Name": "DiffuseShader",
+"Value": "LAMBERT"
+},
+{
+"Name": "SpecularShader",
+"Value": "TOON"
+},
+{
+"Name": "SpecularToonSize",
+"Value": "0.0"
+},
+{
+"Name": "SpecularToonSmooth",
+"Value": "0.0"
+}
+]
+}
+}
+}
+],
+"TextureAttributeList": [
+[
+{
+"osg.Texture": {
+"UniqueID": 19
+}
+}
+]
+],
+"UserDataContainer": {
+"UniqueID": 182,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "00_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "00_Mirror",
+"Value": "1.0"
+},
+{
+"Name": "00_BlendType",
+"Value": "MIX"
+}
+]
+}
+}
+},
+"PrimitiveSetList": [
+{
+"DrawElementsUShort": {
+"UniqueID": 189,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 1918,
+"Offset": 691116
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLE_STRIP"
+}
+}
+],
+"VertexAttributeList": {
+"Normal": {
+"UniqueID": 186,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 1280,
+"Offset": 694952
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+},
+"Tangent": {
+"UniqueID": 188,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 1280,
+"Offset": 710312
+}
+},
+"ItemSize": 4,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord0": {
+"UniqueID": 187,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 1280,
+"Offset": 730792
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"Vertex": {
+"UniqueID": 185,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 1280,
+"Offset": 741032
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+}
+}
+}
+},
+{
+"osg.Geometry": {
+"UniqueID": 190,
+"Name": "Circle.001",
+"StateSet": {
+"osg.StateSet": {
+"UniqueID": 191,
+"Name": "flash",
+"AttributeList": [
+{
+"osg.Material": {
+"UniqueID": 193,
+"Name": "flash",
+"Ambient": [
+0,
+0,
+0,
+1
+],
+"Diffuse": [
+1,
+1,
+1,
+1
+],
+"Emission": [
+0,
+0,
+0,
+1
+],
+"Shininess": 12.5,
+"Specular": [
+1,
+1,
+1,
+1
+],
+"UserDataContainer": {
+"UniqueID": 194,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "DiffuseIntensity",
+"Value": "1.0"
+},
+{
+"Name": "DiffuseColor",
+"Value": "[ 1.000000, 1.000000, 1.000000 ]"
+},
+{
+"Name": "SpecularIntensity",
+"Value": "1.0"
+},
+{
+"Name": "SpecularColor",
+"Value": "[ 1.000000, 1.000000, 1.000000 ]"
+},
+{
+"Name": "SpecularHardness",
+"Value": "50"
+},
+{
+"Name": "Emit",
+"Value": "0.0"
+},
+{
+"Name": "Ambient",
+"Value": "1.0"
+},
+{
+"Name": "Translucency",
+"Value": "0.0"
+},
+{
+"Name": "DiffuseShader",
+"Value": "LAMBERT"
+},
+{
+"Name": "SpecularShader",
+"Value": "TOON"
+},
+{
+"Name": "SpecularToonSize",
+"Value": "0.699999988079071"
+},
+{
+"Name": "SpecularToonSmooth",
+"Value": "0.0"
+}
+]
+}
+}
+}
+],
+"TextureAttributeList": [
+[
+{
+"osg.Texture": {
+"UniqueID": 19
+}
+}
+]
+],
+"UserDataContainer": {
+"UniqueID": 192,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "00_UseAlpha",
+"Value": "true"
+},
+{
+"Name": "00_Mirror",
+"Value": "1.0"
+},
+{
+"Name": "00_BlendType",
+"Value": "MIX"
+}
+]
+}
+}
+},
+"PrimitiveSetList": [
+{
+"DrawElementsUShort": {
+"UniqueID": 199,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 96,
+"Offset": 756392
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLES"
+}
+},
+{
+"DrawElementsUShort": {
+"UniqueID": 200,
+"Indices": {
+"Array": {
+"Uint16Array": {
+"File": "model_file.bin.gz",
+"Size": 574,
+"Offset": 756584
+}
+},
+"ItemSize": 1,
+"Type": "ELEMENT_ARRAY_BUFFER"
+},
+"Mode": "TRIANGLE_STRIP"
+}
+}
+],
+"VertexAttributeList": {
+"Normal": {
+"UniqueID": 196,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 413,
+"Offset": 757732
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+},
+"Tangent": {
+"UniqueID": 198,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 413,
+"Offset": 762688
+}
+},
+"ItemSize": 4,
+"Type": "ARRAY_BUFFER"
+},
+"TexCoord0": {
+"UniqueID": 197,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 413,
+"Offset": 769296
+}
+},
+"ItemSize": 2,
+"Type": "ARRAY_BUFFER"
+},
+"Vertex": {
+"UniqueID": 195,
+"Array": {
+"Float32Array": {
+"File": "model_file.bin.gz",
+"Size": 413,
+"Offset": 772600
+}
+},
+"ItemSize": 3,
+"Type": "ARRAY_BUFFER"
+}
+}
+}
+}
+]
+}
+}
+]
+}
+},
+{
+"osg.MatrixTransform": {
+"UniqueID": 201,
+"Name": "Lamp.001",
+"Matrix": [
+-0.97735,
+-0.14451,
+0.15463,
+0,
+0.01342,
+-0.77147,
+-0.63612,
+0,
+0.21122,
+-0.61963,
+0.75594,
+0,
+3.88635,
+-7.43409,
+1.30654,
+1
+],
+"Children": [
+{
+"osg.LightSource": {
+"UniqueID": 202,
+"Name": "Lamp.001",
+"StateSet": {
+"osg.StateSet": {
+"UniqueID": 203
+}
+},
+"Light": {
+"osg.Light": {
+"UniqueID": 204,
+"Ambient": [
+1,
+1,
+1,
+1
+],
+"ConstantAttenuation": 1,
+"Diffuse": [
+0.2,
+0.2,
+0.2,
+1
+],
+"Direction": [
+0,
+0,
+-1
+],
+"LightNum": 2,
+"LinearAttenuation": 0,
+"Position": [
+0,
+0,
+1,
+0
+],
+"QuadraticAttenuation": 0,
+"Specular": [
+0,
+0,
+0,
+1
+],
+"SpotCutoff": 180,
+"SpotExponent": 0,
+"UserDataContainer": {
+"UniqueID": 205,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "Energy",
+"Value": "0.19999997317790985"
+},
+{
+"Name": "Color",
+"Value": "[ 1.000000, 1.000000, 1.000000 ]"
+},
+{
+"Name": "UseDiffuse",
+"Value": "true"
+},
+{
+"Name": "UseSpecular",
+"Value": "false"
+},
+{
+"Name": "Distance",
+"Value": "29.999982833862305"
+},
+{
+"Name": "Type",
+"Value": "HEMI"
+}
+]
+}
+}
+}
+}
+}
+]
+}
+},
+{
+"osg.MatrixTransform": {
+"UniqueID": 206,
+"Name": "Lamp.002",
+"Matrix": [
+0.29086,
+0.05519,
+-0.95517,
+0,
+0.7711,
+-0.60452,
+0.19988,
+0,
+-0.56639,
+-0.79467,
+-0.21839,
+0,
+7.15732,
+6.36094,
+3.17827,
+1
+],
+"Children": [
+{
+"osg.LightSource": {
+"UniqueID": 207,
+"Name": "Lamp.002",
+"StateSet": {
+"osg.StateSet": {
+"UniqueID": 208
+}
+},
+"Light": {
+"osg.Light": {
+"UniqueID": 209,
+"Ambient": [
+1,
+1,
+1,
+1
+],
+"ConstantAttenuation": 0,
+"Diffuse": [
+1.5,
+1.5,
+1.5,
+1
+],
+"Direction": [
+0,
+0,
+-1
+],
+"LightNum": 3,
+"LinearAttenuation": 0,
+"Position": [
+0,
+0,
+0,
+1
+],
+"QuadraticAttenuation": 0.03333,
+"Specular": [
+1.5,
+1.5,
+1.5,
+1
+],
+"SpotCutoff": 180,
+"SpotExponent": 0,
+"UserDataContainer": {
+"UniqueID": 210,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "Energy",
+"Value": "1.5"
+},
+{
+"Name": "Color",
+"Value": "[ 1.000000, 1.000000, 1.000000 ]"
+},
+{
+"Name": "UseDiffuse",
+"Value": "true"
+},
+{
+"Name": "UseSpecular",
+"Value": "true"
+},
+{
+"Name": "Distance",
+"Value": "29.999982833862305"
+},
+{
+"Name": "FalloffType",
+"Value": "INVERSE_SQUARE"
+},
+{
+"Name": "UseSphere",
+"Value": "false"
+},
+{
+"Name": "Type",
+"Value": "POINT"
+}
+]
+}
+}
+}
+}
+}
+]
+}
+},
+{
+"osg.MatrixTransform": {
+"UniqueID": 211,
+"Name": "Lamp",
+"Matrix": [
+0.18494,
+0.03509,
+-0.60731,
+0,
+0.49028,
+-0.38437,
+0.12709,
+0,
+-0.36012,
+-0.50527,
+-0.13886,
+0,
+2.54324,
+-4.68399,
+0.06652,
+1
+],
+"Children": [
+{
+"osg.LightSource": {
+"UniqueID": 212,
+"Name": "Lamp",
+"StateSet": {
+"osg.StateSet": {
+"UniqueID": 213
+}
+},
+"Light": {
+"osg.Light": {
+"UniqueID": 214,
+"Ambient": [
+1,
+1,
+1,
+1
+],
+"ConstantAttenuation": 0,
+"Diffuse": [
+1,
+1,
+1,
+1
+],
+"Direction": [
+0,
+0,
+-1
+],
+"LightNum": 1,
+"LinearAttenuation": 0,
+"Position": [
+0,
+0,
+0,
+1
+],
+"QuadraticAttenuation": 0.03333,
+"Specular": [
+1,
+1,
+1,
+1
+],
+"SpotCutoff": 180,
+"SpotExponent": 0,
+"UserDataContainer": {
+"UniqueID": 215,
+"Values": [
+{
+"Name": "source",
+"Value": "blender"
+},
+{
+"Name": "Energy",
+"Value": "1.0"
+},
+{
+"Name": "Color",
+"Value": "[ 1.000000, 1.000000, 1.000000 ]"
+},
+{
+"Name": "UseDiffuse",
+"Value": "true"
+},
+{
+"Name": "UseSpecular",
+"Value": "true"
+},
+{
+"Name": "Distance",
+"Value": "29.999982833862305"
+},
+{
+"Name": "FalloffType",
+"Value": "INVERSE_SQUARE"
+},
+{
+"Name": "UseSphere",
+"Value": "false"
+},
+{
+"Name": "Type",
+"Value": "POINT"
+}
+]
+}
+}
+}
+}
+}
+]
+}
+}
+]
+}
+}
+]
+}
+}
+

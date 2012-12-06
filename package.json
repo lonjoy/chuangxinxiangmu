@@ -1,0 +1,22 @@
+{
+    "name": "3d",
+    "version": "1.0.0",
+    "root": "chuangxin",
+    "description": "",
+    "homepage": "",
+    "author": "",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "bugs": {
+        "url": ""
+    },
+    "license": "MIT",
+    "dependencies": {
+    },
+    "tests": ["3d"],
+    "output": {
+        "3d.js": "."
+    }
+}
